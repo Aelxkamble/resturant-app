@@ -1,0 +1,52 @@
+.footer-up {
+  display: flex;
+}
+.about-test {
+  text-align: left;
+  width: 30%;
+  margin: 20px;
+}
+
+.our-loaction {
+  width: 30%;
+  margin: 30px;
+}
+.our-loaction span {
+  margin-top: 5px;
+  /* border: 1px solid white; */
+}
+.our-loaction .get-loaction {
+  margin-bottom: 15px;
+  /* border: 1px solid white; */
+}
+.our-loaction .location {
+  margin-top: 10px;
+}
+.our-loaction .location:hover {
+  color: goldenrod;
+}
+.Quick-links {
+  width: 30%;
+  margin: 20px;
+}
+.Quick-links ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.Quick-links .link {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+/* mobile-view */
+
+@media only screen and (max-width:600px){
+    .footer-up{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

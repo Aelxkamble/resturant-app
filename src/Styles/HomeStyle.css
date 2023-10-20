@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&display=swap');
+
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../Images/banner.jpeg');
+}
+.headerContainer {
+  width: auto;
+  margin-left: 30px;
+}
+.home .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+}
+.home .headerContainer p {
+  margin-top: 15px;
+  padding: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: black;
+}
+.home .headerContainer button {
+  background-color: #121619;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.headerContainer button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  border: 1px solid white;
+}
+.menu-section {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin-top: -90px;
+  line-height: 30px;
+  background-color: black;
+  /* border: 2px solid red; */
+}
+.hr{
+    width: 60%;
+    height: 7px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    
+    background-color: black;
+    border-radius: 5px;
+}
+.head {
+  margin: 20px;
+}
+
+.menu {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between !important;
+  /* border: 2px solid white */
+}
+.left-menu {
+  width: 90%;
+  /* border: 2px solid red; */
+}
+.left-menu ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  line-height: 30px;
+}
+.left-menu ul li span {
+  color: #7a7a7a;
+}
+.right-menu {
+  width: 90%;
+  /* border: 2px solid red; */
+}
+.right-menu ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  line-height: 30px;
+}
+.right-menu ul li span {
+  color: #7a7a7a;
+}
+
+.divider-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  border-top: 1px solid gray;
+  width: 300px;
+}
+.signature-menu {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: contain;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+}
+.btn {
+  margin: 10px;
+  color: white;
+}
+.btn button {
+  border: 1px solid black;
+  background-color: white;
+  color: black !important;
+  padding: 15px;
+  cursor: pointer;
+  width: 20%;
+  font-size: 1rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: white;
+}
+.btn button:hover {
+  border: 1px solid white;
+  background-color: black;
+  color: white !important;
+}
+.photos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.h1{
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer {
+    margin-left: 0;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121619;
+    color: white;
+  }
+  .home .headerContainer h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    height: 30px;
+    margin: 30px 0;
+    color: white;
+  }
+  .home .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+  .home .headerContainer button {
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+  }
+  .divider {
+    width: 150px;
+  }
+}

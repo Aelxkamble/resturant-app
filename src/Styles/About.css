@@ -1,0 +1,25 @@
+.About{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.logo{
+    filter: brightness( 99% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    opacity: 0.75;
+}
+.logo:hover{
+    filter: none;
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .About{
+        justify-content: center;
+        align-items: center;
+    }
+}
